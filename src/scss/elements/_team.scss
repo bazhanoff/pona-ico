@@ -1,0 +1,65 @@
+@import "../variables";
+
+@media (max-width: 467px) {
+
+	.team__member {
+		width: 100%;
+	}
+
+	.team__member:not(:first-child) {
+		margin-top: 4rem;
+	}
+}
+
+@media (min-width: 468px) {
+
+	.team__members {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media (min-width: 468px) and (max-width: 699px) {
+
+	.team__member {
+		width: 48%;
+
+		&:not(:nth-child(2n)) {
+			margin-right: 4%;
+		}
+
+		&:nth-child(n+3) {
+			margin-top: 2rem;
+		}
+	}
+}
+
+@media (min-width: 700px) and (max-width: 1119px) {
+
+	.team__member {
+		width: 32%;
+
+		&:not(:nth-child(3n)) {
+			margin-right: 2%;
+		}
+
+		&:nth-child(n+4) {
+			margin-top: 2rem;
+		}
+	}
+}
+
+@media (min-width: 1120px) {
+
+	.team__member {
+		width: 21%;
+
+		&:not(:nth-child(4n)) {
+			margin-right: 4%;
+		}
+
+		&:nth-child(n+5) {
+			margin-top: 2rem;
+		}
+	}
+}

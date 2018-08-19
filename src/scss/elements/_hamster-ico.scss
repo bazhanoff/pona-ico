@@ -1,0 +1,68 @@
+@import "../variables";
+
+.hamster-ico {
+	padding: 3rem 3rem 4.2rem;
+	background-color: rgba(194, 191, 183, 0.3);
+	color: $white;
+	border-radius: 7px;
+}
+
+.hamster-ico__caption {
+	display: block;
+	margin-bottom: 2.6rem;
+	text-transform: uppercase;
+	font-size: 2.4rem;
+	font-weight: 700;
+}
+
+.hamster-ico__total {
+	margin-top: 3rem;
+	font-size: 2.4rem;
+}
+
+.hamster-ico__progress-bar[value]::-webkit-progress-value {
+	background-image: linear-gradient(to right, rgba(152, 81, 40, 1) 0%, rgba(255, 122, 65, 1) 100%);
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+.hamster-ico__progress-bar[value]::-webkit-progress-bar {
+	background: $gray;
+	border-radius: 7px;
+}
+
+.hamster-ico__progress-bar[value]::-moz-progress-bar {
+	background-image: linear-gradient(to right, rgba(152, 81, 40, 1) 0%, rgba(248, 124, 50, 1) 100%);
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+.hamster-ico__progress-bar {
+	width: 100%;
+	height: 1.9rem;
+	border: none;
+	border-radius: 7px;
+	background-image: linear-gradient(to right, rgba(152, 81, 40, 1) 0%, rgba(248, 124, 50, 1) 100%);
+}
+
+.hamster-ico__cost {
+	margin-top: 1.8rem;
+	font-size: 2.4rem;
+}
+
+.hamster-ico__footer {
+	margin-top: 4rem;
+	text-align: center;
+}
+
+@media (min-width: 940px) and (max-width: 1119px)  {
+
+	.hamster-ico__container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.hamster-ico__tokens {
+		width: 45%;
+	}
+}

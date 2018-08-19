@@ -1,0 +1,54 @@
+@import "../variables";
+
+.title {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	&--xxl {
+		font-size: 3.2rem;
+	}
+
+	&--xl {
+		font-size: 2.4rem;
+	}
+
+	&--l {
+		font-size: 1.8rem;
+	}
+
+	&--orange {
+		color: $orange;
+	}
+
+	&--dark-gray {
+		color: #383431;
+	}
+
+	&--white {
+		color: $white;
+	}
+
+	&--orange-pale {
+		color: #f0b491;
+	}
+
+	&--brown {
+		color: #c65d1e;
+	}
+
+	&--brown-pale {
+		color: #cb8b64;
+	}
+
+	&--gray-light {
+		color: #acacac;
+	}
+
+	&--gray {
+		color: #6e726e;
+	}
+
+	&--gray-brown {
+		color: #373b39;
+	}
+}

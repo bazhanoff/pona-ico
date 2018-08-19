@@ -1,0 +1,15 @@
+@import "../variables";
+
+.logo {
+	display: flex;
+}
+
+.logo__title {
+	color: $white;
+	align-self: flex-end;
+	text-transform: uppercase;
+}
+
+.logo__char {
+	color: $orange
+}

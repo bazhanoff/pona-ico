@@ -1,0 +1,50 @@
+@import "../variables";
+
+.news {
+	background-color: #f5f5f5;
+}
+
+@media (max-width: 467px) {
+
+	.news__post:not(:first-child) {
+		margin-top: 4rem;
+	}
+}
+
+@media (min-width: 468px) {
+
+	.news__posts {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media (min-width: 468px) and (max-width: 849px) {
+
+	.news__post {
+		width: 48%;
+
+		&:nth-child(n+3) {
+			margin-top: 3rem;
+		}
+
+		&:not(:nth-child(2n)) {
+			margin-right: 4%;
+		}
+	}
+}
+
+@media (min-width: 850px) {
+
+	.news__post {
+		width: 31%;
+
+		&:nth-child(n+4) {
+			margin-top: 3rem;
+		}
+
+		&:not(:nth-child(3n)) {
+			margin-right: 3%;
+		}
+	}
+}

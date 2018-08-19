@@ -1,0 +1,98 @@
+@import "../variables";
+
+.timer {
+	display: flex;
+	justify-content: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: $white;
+	border-radius: 3px;
+	border: 1px solid #ff7f33;
+}
+
+
+@media (min-width: 1120px) {
+
+	.timer__item {
+		width: 78px;
+	}
+}
+
+@media (min-width: 451px) and (max-width: 1119px) {
+
+	.timer__item {
+		width: 50px;
+	}
+}
+
+@media (max-width: 450px) {
+
+	.timer__item {
+		width: 3.4rem;
+	}
+}
+
+
+.timer__item {
+	text-align: center;
+}
+
+.timer__item:not(:last-child) {
+	border-right: 1px solid $white;
+}
+
+.timer__number {
+	display: block;
+	font-family: "Exo2";
+	font-size: 4.8rem;
+	font-weight: 700;
+}
+
+.timer__measure {
+	display: block;
+	color: $white;
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 36px;
+}
+
+@media (max-width: 399px) {
+
+	.timer__item:not(:last-child) {
+		padding-right: 1.2rem;
+		margin-right: 1.3rem;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+
+	.timer__item:not(:last-child) {
+		padding-right: 2rem;
+		margin-right: 2rem;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.timer {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+
+	.timer__number {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 501px) {
+
+	.timer {
+		padding-left: 3.1rem;
+		padding-right: 3.1rem;
+	}
+
+	.timer__item:not(:last-child) {
+		padding-right: 2rem;
+		margin-right: 2rem;
+	}
+}

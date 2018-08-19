@@ -1,0 +1,54 @@
+@import "../variables";
+
+.member {
+	text-align: center;
+}
+
+.member__imgbox {
+	position: relative;
+
+	&:before {
+		display: block;
+		width: 98%;
+		content: "";
+		top: 0;
+		padding-top: 98%;
+		background-color: #ff7f33;
+	}
+}
+
+.member__img {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.member__about {
+	margin-top: 2.5rem;
+}
+
+.member__name {
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.member__description {
+	color: #747070;
+	font-size: 1.4rem;
+}
+
+.member__socials {
+	margin-top: 2rem;
+}
+
+.member__socials-link:not(:last-child) {
+	margin-right: .3rem;
+}
+
+@media (min-width: 1120px) {
+
+	.member__imgbox {
+		width: 25rem;
+	}
+}

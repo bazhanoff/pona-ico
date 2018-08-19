@@ -1,0 +1,1160 @@
+{% extends "src/njc/layout.njc" %}
+{% block content %}
+<section id="about" class="section about">
+	<div class="container">
+		<h2 class="title title--xxl title--orange section__title">о проекте</h2>
+		<div class="section__content about__content">
+			<div class="about__info">
+				<div class="about__text">
+					<p>
+						Перед современном миром стоит глобальная проблема связанная с потерями дорогих человеку вещей,
+						домашних
+						либимцев, важных документов и т.д. Чтобы решить данную проблему и максимально помочь людям
+						разыскать
+						свою любимую вещь максимально быстро, мы разработали единую платформу поиска «ПОтерялНАшёл», где
+						можно
+						рассказать и разместить своё объявление о потери или находке чего то очень важного для Вас.
+					</p>
+					<p>
+						Платформа так же предназначена для того, чтобы люди, волонтеры и различные организации размещали
+						информацию о находках и забытых вещах.
+					</p>
+				</div>
+				<div class="about__download">
+					<a href="#" class="about__download-link">презентация</a>
+				</div>
+			</div>
+			<div class="about__broadcast">
+				<div class="about__video">
+					<iframe src="https://www.youtube.com/embed/K59KKnIbIaM" allowfullscreen>
+					</iframe>
+				</div>
+				<div class="about__share">
+					<span class="about__share-text">
+						поделиться
+					</span>
+					<div class="about__socials">
+						<a target="_blank" class="social social--small social--orange about__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--orange" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--orange" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-tg"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="work" class="section work">
+	<div class="container">
+		<h2 class="title title--xxl title--white section__title">как мы работаем</h2>
+		<div class="section__content">
+			<div class="work__tabs">
+				<button type="button" class="button button--big button--rounded button--transparent work__button work__button--active">
+					если ты нашел
+				</button>
+				<button type="button" class="button button--big button--rounded button--transparent work__button">если ты
+					потерял</button>
+			</div>
+			<div class="work__info work__info--active">
+				<div class="work__imgbox">
+					<img class="work__img" src="images/schema-found.png" alt="Схема действий при находке">
+				</div>
+				<div class="work__stages">
+					<div class="work__stage">
+						<div class="stage stage--place work__stage">
+							<span class="stage__number">1</span>
+							<span class="stage__name">Размести объявление на нашей платформе</span>
+						</div>
+					</div>
+					<div class="work__stage">
+						<div class="stage stage--reward work__stage">
+							<span class="stage__number">2</span>
+							<span class="stage__name">Получи отклик на объявление</span>
+						</div>
+					</div>
+					<div class="work__stage">
+						<div class="stage stage--monitoring work__stage">
+							<span class="stage__number">3</span>
+							<span class="stage__name">Отдай найденную вещь</span>
+						</div>
+					</div>
+					<div class="work__stage">
+						<div class="stage stage--response work__stage">
+							<span class="stage__number">4</span>
+							<span class="stage__name">Получи вознаграждение (если назначено)</span>
+						</div>
+					</div>
+					<div class="work__stage">
+						<div class="stage stage--getting work__stage">
+							<span class="stage__number">5</span>
+							<span class="stage__name">Получи понабаллы</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="work__info">
+				<div class="work__imgbox">
+					<img class="work__img" src="images/schema-lost.png" alt="Схема действий при находке">
+				</div>
+				<div class="work__stages">
+					<div class="work__stage">
+						<div class="stage stage--place work__stage">
+							<span class="stage__number">1</span>
+							<span class="stage__name">Размести объявление на нашей платформе</span>
+						</div>
+					</div>
+					<div class="work__stage">
+						<div class="stage stage--reward work__stage">
+							<span class="stage__number">2</span>
+							<span class="stage__name">Назначь награду (по желанию)</span>
+						</div>
+					</div>
+					<div class="work__stage">
+						<div class="stage stage--monitoring work__stage">
+							<span class="stage__number">3</span>
+							<span class="stage__name">Отслеживай статус объявления</span>
+						</div>
+					</div>
+					<div class="work__stage">
+						<div class="stage stage--response work__stage">
+							<span class="stage__number">4</span>
+							<span class="stage__name">Получи отклик на объявление</span>
+						</div>
+					</div>
+					<div class="work__stage">
+						<div class="stage stage--getting work__stage">
+							<span class="stage__number">5</span>
+							<span class="stage__name">Получи потерянную вещь</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="tokens" class="js-distribution-token section distribution distribution--bg-white">
+	<div class="container">
+		<h2 class="title title--xxl title--dark-gray section__title">Схема распределения токенов</h2>
+		<div class="section__content distribution__content">
+			<div class="distribution__diagram diagram">
+				<div class="diagram__imgbox">
+					<img class="diagram__img" alt="Диаграма распределения токенов" src="images/token-diagram.png">
+				</div>
+				<div class="diagram__data">
+					<div class="diagram__segment diagram__segment--orange">
+						<span class="diagram__segment-percent">74% - </span>
+						<span class="diagram__segment-name">Участникам ICO</span>
+					</div>
+					<div class="diagram__segment diagram__segment--orange-pale">
+						<span class="diagram__segment-percent">12% - </span>
+						<span class="diagram__segment-name">Команда</span>
+					</div>
+					<div class="diagram__segment diagram__segment--brown-pale">
+						<span class="diagram__segment-percent">10% - </span>
+						<span class="diagram__segment-name">Резервный фонд</span>
+					</div>
+					<div class="diagram__segment diagram__segment--brown">
+						<span class="diagram__segment-percent">4% - </span>
+						<span class="diagram__segment-name">Баунти</span>
+					</div>
+				</div>
+			</div>
+			<div class="distribution__info">
+				<article class="distribution__description">
+					<h3 class="title title--l title--orange distribution__description-title">74% участникам ICO</h3>
+					<div class="distribution__description-info">
+						<p>
+							Продажа токенов участникам ICO на всех этапах.
+						</p>
+					</div>
+				</article>
+				<article class="distribution__description">
+					<h3 class="title title--l title--orange-pale distribution__description-title">12% команда</h3>
+					<div class="distribution__description-info">
+						<p>
+							Основатели, команда, консультанты и лица, оказывающие поддержку на раннем этапе. (без права
+							пробажи в ближайший 1 год)
+						</p>
+					</div>
+				</article>
+				<article class="distribution__description">
+					<h3 class="title title--l title--brown-pale distribution__description-title">10% Резервный фонд</h3>
+					<div class="distribution__description-info">
+						<p>
+							Обеспечение бесперебойной работы платформы. Популяризация платформы на международном рынке.
+							Поощрение новых клиентов с целью развития проекта.
+						</p>
+					</div>
+				</article>
+				<article class="distribution__description">
+					<h3 class="title title--l title--brown distribution__description-title">4% Баунти и бонусная
+						система</h3>
+					<div class="distribution__description-info">
+						<p>
+							Баунти кампания, бонусы участникам ICO, лотереи и благотворительность
+						</p>
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="bounty" class="js-distribution-invest section distribution distribution--reverse distribution--bg-gray">
+	<div class="container">
+		<h2 class="title title--xxl title--dark-gray section__title">Распределение полученных инвестиций</h2>
+		<div class="section__content distribution__content">
+			<div class="distribution__diagram diagram">
+				<div class="diagram__imgbox">
+					<img class="diagram__img" alt="Диаграма распределения полученных инвестиций"
+						 src="images/invest-giagram.png">
+				</div>
+				<div class="diagram__data">
+					<div class="diagram__segment diagram__segment--orange">
+						<span class="diagram__segment-percent">70% - </span>
+						<span class="diagram__segment-name">Развитие и продвижение платформы</span>
+					</div>
+					<div class="diagram__segment diagram__segment--gray-light">
+						<span class="diagram__segment-percent">23% - </span>
+						<span class="diagram__segment-name">PR и Маркетинг</span>
+					</div>
+					<div class="diagram__segment diagram__segment--gray">
+						<span class="diagram__segment-percent">5% - </span>
+						<span class="diagram__segment-name">Операционные расходы</span>
+					</div>
+					<div class="diagram__segment diagram__segment--gray-brown">
+						<span class="diagram__segment-percent">2% - </span>
+						<span class="diagram__segment-name">Развитие сообщества</span>
+					</div>
+				</div>
+			</div>
+			<div class="distribution__info">
+				<article class="distribution__description">
+					<h3 class="title title--l title--orange distribution__description-title">
+						70% Развитие и продвижение платформы
+					</h3>
+					<div class="distribution__description-info">
+						<p>
+							Запуск и продвижение единой платформы поиска «ПОтерялНАшёл» на территории РФ и мировом
+							рынке, открытие сети бюро находок PONAHOUSE и заключение новых партнёрских соглашений.
+						</p>
+					</div>
+				</article>
+				<article class="distribution__description">
+					<h3 class="title title--l title--gray-light distribution__description-title">
+						23% PR и Маркетинг
+					</h3>
+					<div class="distribution__description-info">
+						<p>
+							Запуск глобальной PR и маркетинговой компании по всему миру. Популяризация платформы
+						</p>
+					</div>
+				</article>
+				<article class="distribution__description">
+					<h3 class="title title--l title--gray distribution__description-title">
+						5% Операционные расходы
+					</h3>
+					<div class="distribution__description-info">
+						<p>
+							Юридическое сопровождение и ФОТ, офис и т.д.
+						</p>
+					</div>
+				</article>
+				<article class="distribution__description">
+					<h3 class="title title--l title--gray-brown distribution__description-title">2% Развитие
+						сообщества</h3>
+					<div class="distribution__description-info">
+						<p>
+							Развитие сообщества в социальных сетях и создание волонтёрских групп, объединение
+							единомышленников связанных одной целью.
+						</p>
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="roadmap" class="section roadmap">
+	<div class="container roadmap__container">
+		<h2 class="title title--xxl title--white section__title">Дорожная карта</h2>
+		<div class="section__content roadmap__content">
+			<article class="roadmap__stage roadmap__development">
+				<header class="roadmap__header">
+					<span class="roadmap__year">2017</span>
+					<span class="roadmap__month">Сентябрь - Декабрь</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Разработка проекта</h3>
+					<p class="roadmap__text">
+						Разработка единой платформы ПОтерялНАшёл.
+						Запуск рекламной компания в СМИ, Телевидении, cоциальных сетях и т.д.
+					</p>
+				</div>
+			</article>
+			<article class="roadmap__stage roadmap__startup">
+				<header class="roadmap__header">
+					<span class="roadmap__year">2018</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Официальный запуск проекта</h3>
+					<p class="roadmap__text">
+						Запуск проекта в 6 субъектах РФ, проведение тематических мероприятий, форумов, посещение
+						конференций и выставок.
+					</p>
+				</div>
+			</article>
+			<article class="roadmap__stage roadmap__preparation-preico">
+				<header class="roadmap__header">
+					<span class="roadmap__month">Май</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Подготовка к preICO</h3>
+					<p class="roadmap__text">
+						Подготовка к проведению preICO. Начало рекламной компании.
+					</p>
+				</div>
+			</article>
+			<article class="roadmap__stage roadmap__start-preico">
+				<header class="roadmap__header">
+					<span class="roadmap__month">Июнь</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Проведение preICO</h3>
+				</div>
+			</article>
+			<article class="roadmap__stage rodamap__evolution">
+				<header class="roadmap__header">
+					<span class="roadmap__month">Июль</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Развитие проекта</h3>
+					<p class="roadmap__text">
+						Разработка мобильного приложения. Проведение мероприятий по продвижению и развитию проекта.
+					</p>
+				</div>
+			</article>
+			<article class="roadmap__stage roadmap__preparation-ico">
+				<header class="roadmap__header">
+					<span class="roadmap__month">Август</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Подготовка к ICO</h3>
+				</div>
+			</article>
+			<article class="roadmap__stage roadmap__start-ico">
+				<header class="roadmap__header">
+					<span class="roadmap__month">Сентябрь</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Проведение ICO</h3>
+				</div>
+			</article>
+			<article class="roadmap__stage rodamap__evolution">
+				<header class="roadmap__header">
+					<span class="roadmap__month">Октябрь - декабрь</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Развитие проекта</h3>
+					<p class="roadmap__text">
+						Модернизация платформы. Заключение договорных отношений с потенциальными партнёрами.
+					</p>
+				</div>
+			</article>
+			<article class="roadmap__stage roadmap__output">
+				<header class="roadmap__header">
+					<span class="roadmap__year">2019</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Вывод токенов</h3>
+					<p class="roadmap__text">
+						Вывод ponacoin на криптовалютную биржу
+					</p>
+				</div>
+			</article>
+			<article class="roadmap__stage roadmap__ponahouse">
+				<header class="roadmap__header">
+					<span class="roadmap__month">Сентябрь</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Открытие PONAHOUSE</h3>
+					<p class="roadmap__text">
+						Открытие в крупных субъектах страны PONAHOUSE
+					</p>
+				</div>
+			</article>
+			<article class="roadmap__stage roadmap__next">
+				<header class="roadmap__header">
+					<span class="roadmap__month roadmap__month--hidden">Далее</span>
+				</header>
+				<div class="roadmap__info">
+					<h3 class="title title--l title--orange">Запуск сервиса</h3>
+					<p class="roadmap__text">
+						Запуск сервиса в крупных субъектах РФ и выход на мировой рынок
+					</p>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+<section id="team" class="section team">
+	<div class="container">
+		<h2 class="title title--xxl title--orange section__title">Команда</h2>
+		<div class="section__content team__members">
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member1.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Олег Звонов</h3>
+					<div class="member__description">
+						<span>author of idea, founder</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member2.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Никита Пексимов</h3>
+					<div class="member__description">
+						<span>CMO</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member3.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Евгений Симонов</h3>
+					<div class="member__description">
+						<span>CTO</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member4.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Екатерина Чиркова</h3>
+					<div class="member__description">
+						<span>Project manager</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member5.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Андрей Терещенко</h3>
+					<div class="member__description">
+						<span>project manager</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member6.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Дарья Корнеева</h3>
+					<div class="member__description">
+						<span>PR manager</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member7.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Анна Цыплякова</h3>
+					<div class="member__description">
+						<span>SMM manager</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member8.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Наталья Шурыгина</h3>
+					<div class="member__description">
+						<span>it-юрист</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member9.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Ярослав Звонов</h3>
+					<div class="member__description">
+						<span>head of IT development</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member10.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Кирилл Звонов</h3>
+					<div class="member__description">
+						<span>senior back-end development</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member11.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Артем Миронов</h3>
+					<div class="member__description">
+						<span>UX/UI Designer</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member12.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Даниил Ходырев</h3>
+					<div class="member__description">
+						<span>content manager</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member9.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Ярослав Звонов</h3>
+					<div class="member__description">
+						<span>Front-end development</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member team__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="Олег Звонов" src="images/member10.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">Кирилл Звонов</h3>
+					<div class="member__description">
+						<span>senior back-end development</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+<section class="section consultants">
+	<div class="container">
+		<h2 class="title title--xxl title--orange section__title">КОНСУЛЬТАТИВНЫЙ СОВЕТ</h2>
+		<div class="section__content consultants__members">
+			<article class="member consultants__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="ЕЛЕНА РЕВИЧЕВА" src="../images/member11.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">ЕЛЕНА РЕВИЧЕВА</h3>
+					<div class="member__description">
+						<span>Блокчейн-консультант</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member consultants__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="ЮРИЙ СЕМЕРИЧ" src="../images/member11.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">ЮРИЙ СЕМЕРИЧ</h3>
+					<div class="member__description">
+						<span>Блокчейн-консультант</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+			<article class="member consultants__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="ЮРИЙ СЕМЕРИЧ" src="../images/member11.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">ЮРИЙ СЕМЕРИЧ</h3>
+					<div class="member__description">
+						<span>Блокчейн-консультант</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="member consultants__member">
+				<div class="member__imgbox">
+					<img class="member__img" alt="ВАСИЛИЙ ПИКУЛИН" src="../images/member11.png">
+				</div>
+				<div class="member__about">
+					<h3 class="title title--l member__name">ВАСИЛИЙ ПИКУЛИН</h3>
+					<div class="member__description">
+						<span>Научный консультант</span>
+					</div>
+					<div class="member__socials">
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twit"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-fb"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">google+</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--small social--gray member__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+<div class="aside-info">
+	<div class="container aside-info__container">
+		<h2 class="title title--xxl title--white aside-info__title">
+			БЛАГОДАРЯ Платфоре, запущенной в нескольких городах россии УЖЕ НАЙДЕНО БОЛЕЕ 3000 вещей и 900 животных
+		</h2>
+		<div class="aside-info__content">
+			<a class="link button button--middle button--rounded button--white" href="#">Инвестировать</a>
+		</div>
+	</div>
+</div>
+<section id="news" class="section news">
+	<div class="container">
+		<h2 class="title title--xxl title--orange section__title">Новости</h2>
+		<div class="section__content">
+			<div class="news__posts">
+				<a href="#0" class="post news__post">
+					<div class="post__imgbox">
+						<img class="post__img" src="images/post1.png" alt="Собака">
+					</div>
+					<div class="post__info">
+						<time datetime="2018-05-08" class="post__date">8 мая 2017 г.</time>
+						<span class="post__text">Проекты мнпк росоператор рассказали о себе на secon`2018</span>
+					</div>
+				</a>
+				<a href="#0" class="post news__post">
+					<div class="post__imgbox">
+						<img class="post__img" src="images/post2.png" alt="Сайт Пона.рф">
+					</div>
+					<div class="post__info">
+						<time datetime="2018-05-08" class="post__date">8 мая 2017 г.</time>
+						<span class="post__text">Проекты мнпк росоператор рассказали о себе на secon`2018</span>
+					</div>
+				</a>
+				<a href="#0" class="post news__post">
+					<div class="post__imgbox">
+						<img class="post__img" src="images/post3.png" alt="Логотип Пона.рф">
+					</div>
+					<div class="post__info">
+						<time datetime="2018-05-08" class="post__date">8 мая 2017 г.</time>
+						<span class="post__text">Проекты мнпк росоператор рассказали о себе на secon`2018</span>
+					</div>
+				</a>
+				<a href="#0" class="post news__post">
+					<div class="post__imgbox">
+						<img class="post__img" src="images/post3.png" alt="Логотип Пона.рф">
+					</div>
+					<div class="post__info">
+						<time datetime="2018-05-08" class="post__date">8 мая 2017 г.</time>
+						<span class="post__text">Проекты мнпк росоператор рассказали о себе на secon`2018</span>
+					</div>
+				</a>
+				<a href="#0" class="post news__post">
+					<div class="post__imgbox">
+						<img class="post__img" src="images/post3.png" alt="Логотип Пона.рф">
+					</div>
+					<div class="post__info">
+						<time datetime="2018-05-08" class="post__date">8 мая 2017 г.</time>
+						<span class="post__text">Проекты мнпк росоператор рассказали о себе на secon`2018</span>
+					</div>
+				</a>
+			</div>
+			<footer class="post__footer">
+				<a href="#0">Все проекты</a>
+			</footer>
+		</div>
+	</div>
+</section>
+{% endblock %}

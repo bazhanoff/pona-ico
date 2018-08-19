@@ -1,0 +1,83 @@
+@import "../variables";
+
+.toggle-language {
+	position: relative;
+	display: inline-block;
+	color: $black;
+	font-size: 1.4rem;
+	background-color: transparent;
+}
+
+.toggle-language__button {
+	position: relative;
+	border: none;
+	padding: 8px 20px 8px 8px;
+	background-color: inherit;
+	font: inherit;
+	transition: .2s;
+
+	&:focus {
+		outline: none;
+		background-image: linear-gradient(90deg,rgba(152,81,40,.8) 0,rgba(248,124,50,.8));
+	}
+
+	&:hover {
+		color: $orange;
+
+		&:after {
+			border-color: $orange;
+		}
+	}
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		right: 5px;
+		transform: translateY(-50%) rotate(-44deg);
+		width: 4px;
+		height: 4px;
+		border-left: 2px solid $orange;
+		border-bottom: 2px solid $orange;
+		transition: .2s;
+	}
+
+	&:focus:after {
+		top: 60%;
+		border-color: $black;
+		transform: translateY(-50%) rotate(135deg);
+	}
+}
+
+.toggle-language__button:focus + .toggle-language__list {
+	display: block;
+}
+
+.toggle-language__flag {
+	width: 32px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.toggle-language__list {
+	display: none;
+	position: absolute;
+	font-size: inherit;
+	cursor: pointer;
+
+	&:hover {
+		display: block;
+	}
+}
+
+.toggle-language__link {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	padding: 8px 20px 8px 8px;
+	background-image: linear-gradient(90deg,rgba(152,81,40,.8) 0,rgba(248,124,50,.8));
+
+	&:focus, &:hover {
+		background-color: $gray;
+	}
+}

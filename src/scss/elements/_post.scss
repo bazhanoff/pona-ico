@@ -1,0 +1,45 @@
+@import "../variables";
+
+.post {
+	display: block;
+	background-color: $white;
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover, &:focus {
+		.post__text {
+			color: $orange;
+		}
+	}
+}
+
+.post__img {
+	width: 100%;
+}
+
+.post__info {
+	margin-top: .9rem;
+	padding-bottom: 1.4rem;
+	padding-left: 1.4rem;
+	padding-right: 1.4rem;
+}
+
+.post__date {
+	color: $gray;
+	font-size: 1.4rem;
+}
+
+.post__date, .post__text {
+	display: block;
+}
+
+.post__text {
+	transition: color .25s;
+	margin-top: 2rem;
+	color: #7e7976;
+}
+
+.post__footer {
+	margin-top: 3.5rem;
+	text-align: right;
+}

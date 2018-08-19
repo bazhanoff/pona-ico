@@ -1,0 +1,49 @@
+@import "../variables";
+
+.aside-info {
+	padding-top: 8.5rem;
+	padding-bottom: 8.5rem;
+	background-color: $orange;
+}
+
+.aside-info__title {
+	text-transform: uppercase;
+	margin-bottom: 5rem;
+	text-align: left;
+}
+
+.aside-info__content {
+	margin-top: 5rem;
+}
+
+@media (min-width: 620px) {
+
+	.aside-info__container {
+		background: url("../images/animals.png");
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 620px) and (max-width: 1025px) {
+
+	.aside-info__container {
+		padding-bottom: 20rem;
+		background-position: 80%  100%;
+		background-size: 40% 70%;
+	}
+}
+
+@media (min-width: 1026px) {
+
+	.aside-info__container {
+		padding-top: 9rem;
+		padding-bottom: 17rem;
+		background-position: 100%  0;
+		background-size: 60% 100%;
+	}
+
+	.aside-info__title {
+		width: 41%;
+	}
+}
+

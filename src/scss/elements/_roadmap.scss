@@ -1,0 +1,241 @@
+@import "../variables";
+
+.roadmap {
+	position: relative;
+	background-image: url("../images/bg-road.jpg");
+	background-size: cover;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to right, $black 20%, #0F0705 20%, #0F0705 80%, $black 80%);
+		opacity: .8;
+	}
+}
+
+.roadmap__container {
+	position: relative;
+}
+
+.roadmap__preparation-preico {
+
+	.roadmap__header {
+		text-align: left;
+		margin-right: 0;
+	}
+}
+
+.roadmap__start-preico {
+
+	.roadmap__header {
+		text-align: left;
+		margin-right: 0;
+	}
+}
+
+.roadmap__preparation-ico {
+
+	.roadmap__header {
+		text-align: left;
+		margin-right: 0;
+	}
+}
+
+.roadmap__start-ico {
+
+	.roadmap__header {
+		text-align: left;
+		margin-right: 0;
+	}
+}
+
+.roadmap__output {
+
+	.roadmap__header {
+		text-align: left;
+		margin-right: 0;
+	}
+}
+
+.roadmap__next {
+
+	.roadmap__header {
+		text-align: left;
+		margin-right: 0;
+	}
+
+	.title {
+		visibility: hidden;
+	}
+}
+
+.roadmap__year {
+	display: block;
+	margin-bottom: 1.5rem;
+	color: $white;
+	font-size: 3.3rem;
+	font-weight: 700;
+}
+
+.roadmap__month {
+	display: block;
+	color: $orange;
+	font-size: 1.6rem;
+	font-weight: 700;
+
+	&--hidden {
+		visibility: hidden;
+	}
+}
+
+.roadmap__text {
+	margin-top: 1rem;
+	color: $white;
+	font-weight: 300;
+}
+
+@media (max-width: 767px) {
+
+	.roadmap:before {
+		background: #0F0705;
+	}
+
+	.roadmap__stage:not(:first-child) {
+		margin-top: 3rem;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.roadmap__stage {
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.roadmap__header {
+		text-align: right;
+		margin-right: 16rem;
+		width: 25%;
+	}
+
+	.roadmap__info {
+		width: 25%;
+	}
+
+	.roadmap__development {
+		padding-bottom: 4rem;
+		background: url("../images/paw-dev.png") 50% 0 no-repeat;
+		background-size: auto 100%;
+	}
+
+	.roadmap__startup {
+		padding-bottom: 4rem;
+		background: url("../images/startup.png") 50% 0 no-repeat;
+		background-size: auto 100%;
+	}
+
+	.roadmap__preparation-preico {
+		flex-direction: row-reverse;
+		padding-bottom: 6rem;
+		background: url("../images/preparation-preico.png") 50% 0 no-repeat;
+		background-size: auto 100%;
+
+		.roadmap__info {
+			margin-right: 16rem;
+			text-align: right;
+		}
+	}
+
+	.roadmap__start-preico {
+		flex-direction: row-reverse;
+		padding-bottom: 11rem;
+		background: url("../images/start-preico.png") 50% 0 no-repeat;
+		background-size: 55px 100%;
+
+		.roadmap__info {
+			margin-right: 16rem;
+			text-align: right;
+		}
+	}
+
+	.rodamap__evolution {
+		padding-bottom: 4rem;
+		background: url("../images/evolution.png") 50% 0 no-repeat;
+		background-size: auto 100%;
+	}
+
+	.roadmap__preparation-ico {
+		flex-direction: row-reverse;
+		padding-top: 1rem;
+		padding-bottom: 4rem;
+		background: url("../images/preparation-ico.png") 50% 0 no-repeat;
+		background-size: auto 100%;
+
+		.roadmap__info {
+			margin-right: 16rem;
+			text-align: right;
+		}
+	}
+
+	.roadmap__start-ico {
+		flex-direction: row-reverse;
+		padding-top: 1rem;
+		padding-bottom: 4rem;
+		background: url("../images/preparation-ico.png") 50% 0 no-repeat;
+		background-size: auto 100%;
+
+		.roadmap__info {
+			margin-right: 16rem;
+			text-align: right;
+		}
+	}
+
+	.roadmap__output {
+		flex-direction: row-reverse;
+		padding-bottom: 4rem;
+		background: url("../images/output.png") 50% 0 no-repeat;
+		background-size: auto 100%;
+
+		.roadmap__info {
+			margin-right: 16rem;
+			text-align: right;
+		}
+	}
+
+	.roadmap__ponahouse {
+		padding-bottom: 4rem;
+		background: url("../images/ponahouse.png") 50% 0 no-repeat;
+		background-size: auto 100%;
+	}
+
+	.roadmap__next {
+		flex-direction: row-reverse;
+		padding-bottom: 4rem;
+		background: url("../images/end.png") 50% 0 no-repeat;
+		background-size: auto 50%;
+
+		.roadmap__info {
+			margin-right: 16rem;
+			text-align: right;
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1255px) {
+
+	.roadmap:before {
+		background: linear-gradient(to right, $black 10%, #0F0705 10%, #0F0705 90%, $black 10%);
+	}
+}
+
+@media (min-width: 1256px) {
+
+	.roadmap:before {
+		background: linear-gradient(to right, $black 20%, #0F0705 20%, #0F0705 80%, $black 80%);
+	}
+}

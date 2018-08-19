@@ -1,0 +1,100 @@
+@import "../variables";
+
+.about {
+	background-color: $white;
+}
+
+.about__text {
+	color: #636661;
+}
+
+.about__download-link {
+	padding-top: .6rem;
+	padding-left: 3rem;
+	background: url("../images/download.png") 0 0 no-repeat;
+	background-size: 24px 26px;
+	text-transform: uppercase;
+	transition: opacity .3s;
+
+	&:hover, &:focus {
+		opacity: .8;
+	}
+}
+
+.about__video {
+	position: relative;
+	height: 26rem;
+}
+
+.about__video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.about__share {
+	margin-top: 2.3rem;
+}
+
+.about__share-text {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 1.4rem;
+	/*	font-weight: 700;*/
+	text-transform: uppercase;
+	color: #8b8b8b;
+	cursor: default;
+}
+
+.about__socials {
+	display: inline-block;
+	vertical-align: top;
+
+	&:not(:first-child) {
+		margin-left: 1rem;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 1079px) {
+
+	.about__video {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (max-width: 1079px) {
+
+	.about__broadcast {
+		text-align: center;
+		margin-top: 5rem;
+	}
+
+	.about__download {
+		margin-top: 1.5rem;
+	}
+}
+
+@media (min-width: 1080px) {
+
+	.about__content {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.about__info {
+		max-width: 572px;
+	}
+
+	.about__broadcast {
+		width: 42%;
+	}
+
+	.about__download {
+		margin-top: 3.2rem;
+	}
+}

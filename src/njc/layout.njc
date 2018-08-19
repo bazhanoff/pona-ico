@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	{#	<link rel="shortcut icon" href="images/favicon.png" type="image/png">#}
+	<script defer src="js/common.js"></script>
+	<title>Pona ICO</title>
+</head>
+<body>
+<div class="page">
+	<div class="js-menu preview">
+		<div class="preview__container container">
+			<div class="preview__inner">
+				<div class="preview__header">
+					<button class="button hamburger">
+						<span class="hamburger__label">Открыть меню</span>
+					</button>
+					<nav class="menu preview__menu">
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a href="#about" class="menu__link">О проекте</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#tokens" class="menu__link">Токены</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#bounty" class="menu__link">Баунти</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#roadmap" class="menu__link">Дорожная карта</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#team" class="menu__link">Команда</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#news" class="menu__link">Новости</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#0" class="menu__link">Whitepaper</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="preview__layout">
+						<button class="button button--middle button--circle button--orange preview__input" type="button">
+							Вход
+						</button>
+						<div class="toggle-language header__toggle-language">
+							<button class="button toggle-language__button" type="button">
+						<span class="toggle-language__flag">
+							<img class="toggle-language__img" src="images/ru.svg"
+								 alt="Флаг России">
+						</span>
+							</button>
+							<ul class="list toggle-language__list">
+								<li class="toggle-language__list-item">
+									<a class="toggle-language__link" href="#0">
+								<span class="toggle-language__flag">
+									<img class="toggle-language__img" src="images/en.svg"
+										 alt="Флаг Великобритании">
+								</span>
+									</a>
+								</li>
+								<li class="toggle-language__list-item">
+									<a class="toggle-language__link" href="#0">
+								<span class="toggle-language__flag">
+									<img class="toggle-language__img" src="images/es.svg"
+										 alt="Флаг Испании">
+								</span>
+									</a>
+								</li>
+								<li class="toggle-language__list-item">
+									<a class="toggle-language__link" href="#0">
+								<span class="toggle-language__flag">
+									<img class="toggle-language__img" src="images/fr.svg"
+										 alt="Флаг Франции">
+								</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="preview__content">
+				<div class="preview__about">
+					<div class="logo preview__logo">
+						<h1 class="title title--xl logo__title"><span class="logo__char">по</span>терял<span
+									class="logo__char">на</span>шел
+						</h1>
+						<div class="logo__imgbox">
+							<img class="logo__img" src="images/logo.png" alt="Собака">
+						</div>
+					</div>
+					<div class="preview__info">
+						<p>
+							Единая платформа поиска «ПотерялНашел» помогает людям вернуть
+							потерянные вещи, любимых животных, документы и многое другое.
+						</p>
+					</div>
+					<div class="preview__buttons">
+						<a class="link button button--middle button--rounded button--orange preview__button-invest"
+						   href="#">Инвестировать</a>
+						<a class="link button button--middle button--rounded button--transparent preview__button-subscribe"
+						   href="#">Подписаться
+							на новости проекта</a>
+					</div>
+					<div class="preview__socials">
+						<a target="_blank" class="social social--big social--orange preview__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-facebook"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--big social--orange preview__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twitter"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--big social--orange preview__socials-link" href="#">
+							<span class="social__name">bitcoin</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-bitcoin"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--big social--orange preview__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-telegram"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="hamster-ico preview__about-ico">
+					<div class="hamster-ico__container">
+						<div class="hamster-ico__timer">
+							<span class="hamster-ico__caption">
+								hamster ico
+							</span>
+							<div class="timer">
+								<div class="timer__item">
+									<span class="timer__number">12</span>
+									<span class="timer__measure">days</span>
+								</div>
+								<div class="timer__item">
+									<span class="timer__number">16</span>
+									<span class="timer__measure">hours</span>
+								</div>
+								<div class="timer__item">
+									<span class="timer__number">34</span>
+									<span class="timer__measure">min</span>
+								</div>
+								<div class="timer__item">
+									<span class="timer__number">00</span>
+									<span class="timer__measure">sec</span>
+								</div>
+							</div>
+						</div>
+						<div class="hamster-ico__tokens">
+							<div class="hamster-ico__progress">
+								<div class="hamster-ico__total">
+									<span>$6 500 130</span>
+								</div>
+								<div class="hamster-ico__progress">
+									<progress class="hamster-ico__progress-bar" value="70" max="100">
+									</progress>
+								</div>
+							</div>
+							<div class="hamster-ico__cost">
+								<span>
+									Стоимость токена: 0,0000004 ETH
+								</span>
+							</div>
+							<footer class="hamster-ico__footer">
+								<button type="button" class="button button--middle button--rounded button--orange">
+									Инвестировать
+								</button>
+							</footer>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		{% block content %} {% endblock %}
+	</div>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer__container">
+				<div class="footer__about">
+					<div class="footer__about-caption">
+						<span class="footer__char">по</span>терял<span class="footer__char">на</span>шел
+					</div>
+					<div class="footer__info">
+						<p class="footer__info-text">
+							Единая платформа поиска «ПотерялНашел» помогает людям вернуть потерянные вещи, любимых
+							животных,
+							документы и многое другое.
+						</p>
+					</div>
+				</div>
+				<div class="footer__contacts">
+					<span class="footer__caption">Контакты</span>
+					<a href="mailto:support@pona.io" class="footer__email">support@pona.io</a>
+				</div>
+				<div class="footer__reading">
+					<span class="footer__caption">Читайте нас</span>
+					<div class="footer__socials">
+						<a target="_blank" class="social social--middle social--orange footer__socials-link" href="#">
+							<span class="social__name">facebook</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-facebook"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--middle social--orange footer__socials-link" href="#">
+							<span class="social__name">twitter</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-twitter"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--middle social--orange footer__socials-link" href="#">
+							<span class="social__name">bitcoin</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-bitcoin"></use>
+							</svg>
+						</a>
+						<a target="_blank" class="social social--middle social--orange footer__socials-link" href="#">
+							<span class="social__name">telegram</span>
+							<svg class="social__icon">
+								<use xlink:href="../images/sprite.svg#icon-telegram"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="footer__whitepaper">
+					<a href="#" class="link button button--big button--circle button--orange footer__download">WHITEPAPER</a>
+				</div>
+			</div>
+			<div class="footer__rights">
+				<span class="footer__rights-text">2018  Pona  Все права защищены </span>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

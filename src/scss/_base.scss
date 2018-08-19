@@ -1,0 +1,112 @@
+@import "variables";
+
+@font-face{
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Regular.woff") format("woff"),
+	url("../fonts/Roboto-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Italic.woff") format("woff"),
+	url("../fonts/Roboto-Italic.woff2") format("woff2");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face{
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Medium.woff") format("woff"),
+	url("../fonts/Roboto-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-MediumItalic.woff") format("woff"),
+	url("../fonts/Roboto-MediumItalic.woff2") format("woff2");
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face{
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Light.woff") format("woff"),
+	url("../fonts/Roboto-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-LightItalic.woff") format("woff"),
+	url("../fonts/Roboto-LightItalic.woff2") format("woff2");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face{
+	font-family: "Exo2";
+	src: url("../fonts/Exo2-Bold.woff") format("woff"),
+	url("../fonts/Exo2-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Exo2";
+	src: url("../fonts/Exo2-Bolditalic.woff") format("woff"),
+	url("../fonts/Exo2-Bolditalic.woff2") format("woff2");
+	font-weight: 700;
+	font-style: italic;
+}
+
+body {
+	background-color: $white;
+	font-family: "Roboto", sans-serif;
+	color: $black;
+	font-size: 1.8rem;
+	margin: 0;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 2rem;
+	line-height: 1.4;
+	font-weight: 300;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+a {
+	color: $orange;
+
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+}
+
+img {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 100%;
+}
+
+@media (max-width: 767px) {
+
+	html {
+		font-size: 55.14705%;
+	}
+}
+
+@media (min-width: 768px) {
+
+	html {
+		font-size: 62.5%;
+	}
+}

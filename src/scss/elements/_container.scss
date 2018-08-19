@@ -1,0 +1,18 @@
+@import "../variables";
+
+@media (max-width: 1136px) {
+
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (min-width: 1137px) {
+
+	.container {
+		max-width: 1137px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

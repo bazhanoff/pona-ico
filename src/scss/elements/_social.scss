@@ -1,0 +1,61 @@
+@import "../variables";
+
+.social {
+	display: inline-block;
+	text-decoration: none;
+
+	&--orange {
+		.social__icon {
+			fill: #ff7f33;
+			stroke: #ff7f33;
+
+			&:hover, &:focus{
+				fill: #acacac;
+				stroke: #acacac;
+			}
+		}
+	}
+
+	&--gray {
+		.social__icon {
+			fill: #acacac;
+			stroke: #acacac;
+
+			&:hover, &:focus{
+				fill: #ff7f33;
+				stroke: #ff7f33;
+			}
+		}
+	}
+
+	&--big {
+		.social__icon {
+			width: 46px;
+			height: 46px;
+		}
+	}
+
+	&--middle {
+		.social__icon {
+			width: 33px;
+			height: 33px;
+		}
+	}
+
+	&--small {
+		.social__icon {
+			width: 25px;
+			height: 22px
+		}
+	}
+}
+
+.social__name {
+	position: absolute;
+	left: -99999px;
+}
+
+.social__icon {
+	transition: fill .25s,
+				stroke .25s;
+}
